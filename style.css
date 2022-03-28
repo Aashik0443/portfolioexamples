@@ -1,0 +1,189 @@
+*{
+  scroll-behavior: smooth;
+  }
+  body{
+font-family: Inter;
+margin: 0;
+padding: 0;
+background: #C4C4C4;
+}
+.nav_bars{
+  background-color: #193c62;
+  border: none;
+}
+.titles{
+position: absolute;
+width: auto;
+height: auto;
+padding:10px;
+font-weight: 600;
+font-size: 26px;
+color: #FFFFFF;
+}
+.main_div{
+      height: 400px;
+      width: 100%;
+      background-image: url(images/1.jpg);
+      background-size: cover;
+      animation: sliders 16s infinite linear;
+    }
+    @keyframes sliders{
+      0%{background-image: url(images/1.jpg);}
+      35%{background-image: url(images/2.jpg);}
+      75%{background-image: url(images/3.jpg);}
+    }
+    .menus h1{
+      font-weight: 600;
+      font-size: 26px;
+      margin-top: 40px;
+      color: #000000;
+      text-shadow: 0px 8px 12px rgba(0, 0, 0, 1);
+    }
+    .div_shadow{
+      height: auto;
+      width: auto;
+      margin-top: 40px;
+      background: #D8D8D8;
+      box-shadow: 0px 4px 16px 16px rgba(0, 0, 0, 0.25), 0px 4px 16px #000000;
+    }
+    .div_shadow1{
+      height: auto;
+      width: auto;
+      margin-top: 20px;
+      padding: 10px;
+      background: #D8D8D8;
+      box-shadow: 0px 4px 16px 16px rgba(0, 0, 0, 0.25), 0px 4px 16px #000000;
+    }
+    .div_aboutmeimages{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .div_images{
+      margin-top: 20px;
+      height: 200px;
+      width: 200px;
+      background-image: url(images/profile.png);
+      background-size: 100%;
+      box-shadow: inset 0px 0px 100px 16px rgba(0, 0, 0, 0.1);
+      box-shadow: 0px 4px 16px 16px rgba(0, 0, 0, 0.25), 0px 4px 16px #000000;
+      border-radius: 50%;
+    }
+    .div_blogsimages{
+      margin-top: 40px;
+      height: 250px;
+      width: 200px;
+      background-color: #716B6B;
+      box-shadow: inset 0px 0px 100px 16px rgba(0, 0, 0, 0.1);
+      box-shadow: 0px 4px 16px 16px rgba(0, 0, 0, 0.25), 0px 4px 16px #000000;
+    }
+    .div_image{
+      height: 250px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .div_contactcolums{
+      height: 200px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: rgba(0, 0, 0, 0.6);
+    }
+    .images{
+      height: 200px;
+      width: 300px;
+      background-color: black
+    }
+
+    .div_define{
+      height: 250px;
+    }
+    .div_contact{
+      margin-top: 40px;
+      background: #716B6B;
+      box-shadow: inset 0px 0px 100px 16px rgba(0, 0, 0, 0.1);
+      background-image: url(images/1.jpg);
+      background-size: cover;
+      background-attachment: fixed;
+    }
+    .div_socialmedia{
+      color: white;
+      font-size: 16px;
+      font-weight: 600;
+      letter-spacing: 2px;
+      text-align: center;
+    }
+    .social a i{
+      color: white;
+      text-shadow: 0px 8px 16px rgba(0, 0, 0, 0.6);
+      font-size: 22px;
+      letter-spacing: 12px;
+      -webkit-transition: 0.2s ease-in-out;
+      transition: 0.2s ease-in-out;
+}
+.social a i:hover {
+  text-shadow: 0 0 3px rgba(250, 250, 252, 0.4);
+  color: #fafafc;
+}
+.input_submit{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+input[type="email"]{
+  background: white;
+  color: black;
+  height: 45px;
+  width: auto;
+  border: none;
+  padding: 0 16px;
+  outline: none;
+}
+button[type="submit"]{
+  height: 45px;
+  width: 45px;
+  font-size:24px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  color: #2a7a85;
+  background-color: #193c62;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+button[type="submit"]:hover{
+  text-shadow: 0 0 3px rgba(250, 250, 252, 0.4);
+  color: #fafafc;
+  background-color: #2a7a85; 
+  outline: none;
+  border: none; 
+}
+.button_cv{
+  font-size: 22px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  color: #2a7a85;
+  background-color: #193c62;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+.button_cv:hover{
+  text-shadow: 0 0 3px rgba(250, 250, 252, 0.4);
+  color: #fafafc;
+  background-color: #2a7a85;
+}
+.blogs_blogs{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footers{
+  height: 50px;
+  background-color: #2e2f33;
+  color: white;
+  padding: 20px;
+  margin-top: 30px;
+}
